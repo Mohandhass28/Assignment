@@ -1,0 +1,220 @@
+ul li {
+  list-style: none;
+}
+
+.app-topnav {
+  background-color: #5ba600;
+  max-width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-contacts {
+  padding-left: 6rem;
+}
+
+.app-contacts_list {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-contacts_list li {
+  display: flex;
+}
+
+.app-contacts_list li p {
+  font-size: 12px;
+  display: block;
+}
+
+.envelope,
+.phone,
+.envelope {
+  position: relative;
+  right: 6px;
+  top: 3px;
+}
+
+.app-social {
+  padding-right: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-social_list {
+  display: flex;
+}
+
+.app-social_list li {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  padding: 1rem;
+}
+
+.login a {
+  padding-right: 1rem;
+}
+
+.horizontal_line {
+  width: 0.1px;
+  background-color: #fff;
+  position: relative;
+  right: 5%;
+  top: 10px;
+  height: 45px;
+}
+
+.social-area {
+  position: relative;
+  right: 10px;
+}
+
+.social-area a {
+  padding-left: 0.8rem;
+}
+
+.social-area svg {
+  width: 10px;
+  height: 10px;
+}
+
+.app-navbar {
+  background-color: #0d1741;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-logo {
+  margin-left: 8rem;
+}
+
+.app-searchbar {
+  margin-right: 10rem;
+}
+
+.app-proerty_hide {
+  display: none;
+}
+
+.app-homelist {
+  display: flex;
+}
+
+.app-homelist li {
+  font-size: 16px;
+}
+
+.app-searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-submit {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.app-submit li {
+  padding: 1rem;
+}
+
+.submitbtn a {
+  font-size: 15px;
+  padding: 0 1rem;
+}
+
+.submitbtn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  height: 50px;
+  background-color: #5ba600;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0%;
+  }
+
+  .app-navbar_head {
+    width: 100%;
+    margin: 0 auto;
+    place-items: center;
+  }
+
+  .app-topnav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    place-items: center;
+  }
+  .app-contacts {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0;
+  }
+  .app-contacts_list {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+  }
+  .app-contacts_list p {
+    display: block;
+    padding: 5px;
+  }
+  .app-contacts_list {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;  
+  }
+
+  .app-social {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 80px;
+    /* background-color: aqua; */
+  }
+
+  .app-social_list {
+    display: flex;
+    /* background-color: #fff; */
+  }
+
+  .app-navbar {
+  }
+
+  .app-searchbar {
+    display: none;
+  }
+}

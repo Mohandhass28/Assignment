@@ -1,0 +1,43 @@
+.headimage-leftsidebar{
+    /* background-image:url('	https://solverwp.com/demo/html/mingrand/assets/img/other/6.png'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('	https://solverwp.com/demo/html/mingrand/assets/img/other/6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0 97px;
+    position: relative;
+    background-size: cover;
+}
+
+.headimage-PropertyDetails{
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('	https://solverwp.com/demo/html/mingrand/assets/img/other/7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px 0 97px;
+    position: relative;
+    background-size: cover;
+}
+
+.image-outdiv{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.image-innerdiv{
+    text-align: center!important;
+    position: relative;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    top: -40px;
+}
+
+.home{
+    font-weight: 10;
+    font-size: 15px;
+    
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../assets/fonts/helvetica-neu.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "La Belle Aurore";
+  src: url("../assets/fonts/LaBelleAurore.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
