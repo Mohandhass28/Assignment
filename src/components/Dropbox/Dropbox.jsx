@@ -8,9 +8,9 @@ const Dropbox = ({ array, value }) => {
             <a className="dropbtn" href='#'>{value}</a>
             <div className="dropdown-content">
                 {array.map((data, i) => (
-                    <a href={data.link} key={i+1}>
+                    <NavLink to={data.link} key={i+1}>
                         {data.name}
-                    </a>))}
+                    </NavLink>))}
             </div>
         </div>
 
